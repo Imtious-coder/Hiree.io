@@ -1,0 +1,28 @@
+.header {
+  .logo {
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+    line-height: 42px;
+    transition: 0.2s all;
+
+    &:hover {
+      color: #ff6600;
+    }
+  }
+  .nav-link {
+    margin: 0px 10px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white !important;
+    transition: 0.3s all;
+
+    &:hover {
+      color: #ff6600 !important;
+    }
+  }
+  .navbar-toggler {
+    background-color: #ffffff;
+  }
+}
