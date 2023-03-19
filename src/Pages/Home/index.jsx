@@ -22,6 +22,7 @@ import talent7 from "../../Assets/Images/talent7.png";
 import talent8 from "../../Assets/Images/talent8.jpg";
 import HeadingBottomLine from "../../components/HeadingBottomLine/HeadingBottomLine";
 import Meta from "../../components/Meta/Meta";
+import Video from "../../components/VIDEO/Video";
 import "./Style.scss";
 
 const index = () => {
@@ -241,6 +242,8 @@ const index = () => {
           </div>
         </div>
       </section>
+      {/* VIDEO SECTION */}
+      <Video />
     </>
   );
 };
