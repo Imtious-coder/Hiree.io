@@ -132,28 +132,28 @@ const index = () => {
               </h5>
               <HeadingBottomLine />
             </div>
-            <div className="col-6 col-md-">
+            <div className="col-6 col-md-3">
               <img src={talent1} alt="talent" />
             </div>
-            <div className="col-6 col-md-">
+            <div className="col-6 col-md-3">
               <img src={talent2} alt="talent" />
             </div>
-            <div className="col-6 col-md-">
+            <div className="col-6 col-md-3">
               <img src={talent3} alt="talent" />
             </div>
-            <div className="col-6 col-md-">
+            <div className="col-6 col-md-3">
               <img src={talent4} alt="talent" />
             </div>
-            <div className="col-6 col-md-">
+            <div className="col-6 col-md-3">
               <img src={talent5} alt="talent" />
             </div>
-            <div className="col-6 col-md-">
+            <div className="col-6 col-md-3">
               <img src={talent6} alt="talent" />
             </div>
-            <div className="col-6 col-md-">
+            <div className="col-6 col-md-3">
               <img src={talent7} alt="talent" />
             </div>
-            <div className="col-6 col-md-">
+            <div className="col-6 col-md-3">
               <img src={talent8} alt="talent" />
             </div>
           </div>
@@ -168,28 +168,28 @@ const index = () => {
               <h5>See where Hiree.io been featured</h5>
               <HeadingBottomLine />
             </div>
-            <div className="col-6 col-md-">
+            <div className="col-6 col-md-3">
               <img src={news1} alt="news" />
             </div>
-            <div className="col-6 col-md-">
+            <div className="col-6 col-md-3">
               <img src={news2} alt="news" />
             </div>
-            <div className="col-6 col-md-">
+            <div className="col-6 col-md-3">
               <img src={news3} alt="news" />
             </div>
-            <div className="col-6 col-md-">
+            <div className="col-6 col-md-3">
               <img src={news4} alt="news" />
             </div>
-            <div className="col-6 col-md-">
+            <div className="col-6 col-md-3">
               <img src={news5} alt="news" />
             </div>
-            <div className="col-6 col-md-">
+            <div className="col-6 col-md-3">
               <img src={news6} alt="news" />
             </div>
-            <div className="col-6 col-md-">
+            <div className="col-6 col-md-3">
               <img src={news7} alt="news" />
             </div>
-            <div className="col-6 col-md-">
+            <div className="col-6 col-md-3">
               <img src={news8} alt="news" />
             </div>
           </div>
