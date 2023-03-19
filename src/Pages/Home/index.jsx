@@ -311,6 +311,22 @@ const index = () => {
           </div>
         </div>
       </section>
+      {/* MEETING SECTION */}
+      <section className="meeting py-5">
+        <div className="container-lg">
+          <div className="row align-items-center">
+            <div className="col-12 col-md-6">
+              <div className="d-flex mb-4 mb-sm-0 justify-content-center align-items-center">
+                <p>👍🏻</p>
+                <h2>Want to hire top talent?</h2>
+              </div>
+            </div>
+            <div className="col-12 col-md-6">
+              <button className="button2 d-block me-auto me-md-0 ms-auto ">Schedule a demo</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
