@@ -1,0 +1,55 @@
+.top-footer {
+  background-color: #333333;
+
+  .icons {
+    height: 50px;
+    width: 50px;
+    padding: 12px;
+    color: rgb(164, 164, 164);
+    border: 2px solid grey;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.3s all;
+
+    &:hover {
+      color: white;
+      background-color: tomato;
+      border: 2px solid tomato;
+    }
+  }
+}
+
+.main-footer {
+  background-color: #1b1b1b;
+
+  h5 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 5px;
+  }
+
+  input {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    border-bottom: 1px solid grey;
+  }
+}
+
+.bottom-footer {
+  background-color: black;
+
+  p {
+    font-size: 12px;
+  }
+}
