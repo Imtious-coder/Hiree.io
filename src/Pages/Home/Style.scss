@@ -2,7 +2,6 @@
 .hero {
   overflow: hidden;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
-
   h1 {
     font-size: 42px;
     font-weight: 700;
@@ -17,7 +16,7 @@
   }
   img {
     width: 100%;
-    height: auto;
+    height: 700px;
   }
   .details {
     width: 100%;
@@ -38,6 +37,9 @@
     h4 {
       font-size: 16px;
       line-height: 22px;
+    }
+    img {
+      height: 350px;
     }
   }
 }
@@ -236,11 +238,11 @@
 }
 // TESTIMONIALS SECTION ENDS HERE
 
-// MEETINGS SECTION 
+// MEETINGS SECTION
 .meeting {
-  background-color: #FF4500;
+  background-color: #ff4500;
 
-  p{
+  p {
     font-size: 42px;
   }
   h2 {

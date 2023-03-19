@@ -37,31 +37,9 @@ const index = () => {
         className="hero carousel slide"
         data-bs-ride="carousel"
       >
-        <div className="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="0"
-            className="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="10000">
-            <img src={image1} className="" alt="..." />
+            <img src={image1} alt="hero_image" />
             <div className="details carousel-caption">
               <div>
                 <h4>HARNESS THE POWER OF THE CROWD</h4>
@@ -74,7 +52,7 @@ const index = () => {
             </div>
           </div>
           <div className="carousel-item" data-bs-interval="2000">
-            <img src={image2} className="" alt="..." />
+            <img src={image2} className="" alt="hero_image" />
             <div className="details carousel-caption">
               <div>
                 <h4>TALENT ACQUISITION SOLUTION TO HELP YOU</h4>
@@ -87,7 +65,7 @@ const index = () => {
             </div>
           </div>
           <div className="carousel-item">
-            <img src={image3} className="" alt="..." />
+            <img src={image3} className="" alt="hero_image" />
             <div className="details carousel-caption">
               <div>
                 <h4>MEET THE BEST TALENT</h4>
@@ -322,7 +300,9 @@ const index = () => {
               </div>
             </div>
             <div className="col-12 col-md-6">
-              <button className="button2 d-block me-auto me-md-0 ms-auto ">Schedule a demo</button>
+              <button className="button2 d-block me-auto me-md-0 ms-auto ">
+                Schedule a demo
+              </button>
             </div>
           </div>
         </div>

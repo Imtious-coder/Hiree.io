@@ -5,7 +5,7 @@ import "./Header.scss";
 const Header = () => {
   return (
     <>
-      <nav className="header navbar navbar-expand-lg bg-dark py-4">
+      <nav className="header navbar navbar-expand-lg py-3 py-md-4 sticky-top">
         <div className="container-fluid">
           <Link to="/" className="logo">
             Hiree.io
