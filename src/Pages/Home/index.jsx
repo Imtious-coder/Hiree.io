@@ -1,4 +1,6 @@
 import React from "react";
+import employers1 from "../../Assets/Images/employers1.png";
+import employers2 from "../../Assets/Images/employers2.png";
 import image1 from "../../Assets/Images/hero1.jpg";
 import image2 from "../../Assets/Images/hero2.webp";
 import image3 from "../../Assets/Images/hero3.webp";
@@ -155,6 +157,50 @@ const index = () => {
             </div>
             <div className="col-6 col-md-3">
               <img src={talent8} alt="talent" />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* RECRUIT_HELP SECTION */}
+      <section className="recruit-help py-5">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 d-flex flex-column justify-content-center align-items-center">
+              <h1>TALENT CROWDSOURCING TO HELP YOU RECRUIT</h1>
+              <h5>
+                Bringing recruiters & employers together through crowdsourcing
+              </h5>
+              <HeadingBottomLine />
+            </div>
+            <div className="col-12 col-md-6 d-flex align-items-center px-4">
+              <div className="cards">
+                <div className="w-100 h-100">
+                  <img src={employers1} alt="employers1" className="image1" />
+                </div>
+                <h4>EMPLOYERS</h4>
+                <h6>The 10 most qualified candidates in less than 10 days!</h6>
+                <p>
+                  Thousands of recruiters, a team of dedicated account managers,
+                  and a powerful algorithm to get you the 10 most qualified
+                  candidates in less than 10 days.
+                </p>
+                <button className="d-block mx-auto">Learn more</button>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 d-flex align-items-center px-5">
+              <div className="cards">
+                <div className="mt-5">
+                  <img src={employers2} alt="employers2" className="image2" />
+                </div>
+                <h4>RECRUITERS</h4>
+                <h6>Earn more placement fees.</h6>
+                <p>
+                  Just sign in, choose the jobs you want to work on, and start
+                  recruiting. Earn placement fees for each successful hire. It’s
+                  simple.
+                </p>
+                <button className="d-block mx-auto">Learn more</button>
+              </div>
             </div>
           </div>
         </div>
