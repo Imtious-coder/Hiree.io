@@ -12,6 +12,8 @@ import news5 from "../../Assets/Images/news5.png";
 import news6 from "../../Assets/Images/news6.png";
 import news7 from "../../Assets/Images/news7.jpg";
 import news8 from "../../Assets/Images/news8.png";
+import review1 from "../../Assets/Images/ProfileF.jfif";
+import review2 from "../../Assets/Images/ProfileM.jfif";
 import talent1 from "../../Assets/Images/talent1.png";
 import talent2 from "../../Assets/Images/talent2.jpg";
 import talent3 from "../../Assets/Images/talent3.png";
@@ -206,6 +208,73 @@ const index = () => {
           </div>
         </div>
       </section>
+      <Video />
+      {/* TESTIMONIALS SECTION */}
+      <section className="review py-5">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 d-flex flex-column justify-content-center align-items-center">
+              <h1>CLIENT TESTIMONIALS</h1>
+              <h5>What clients say about us</h5>
+              <HeadingBottomLine />
+            </div>
+            <div className="col-12 mt-5">
+              <div className="row">
+                <div className="col-sm-6 col-md-4">
+                  <img src={review2} alt="review1" className="px-5 px-sm-0" />
+                </div>
+                <div className="col-sm-6 col-md-8 py-4 d-flex flex-column justify-content-center shadow-sm rounded">
+                  <p>
+                    "I’ve never received so many candidates from one vendor that
+                    have made it through the interview stage in such a short
+                    time."
+                  </p>
+                  <h6>
+                    <strong>EVAN LERMAN</strong> Director of Recruiting,
+                    Interactive Brokers, LLC
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 my-5 d-none d-sm-block">
+              <div className="row">
+                <div className="col-sm-6 col-md-8 py-4 d-flex flex-column justify-content-center shadow-sm rounded">
+                  <p>
+                    "I'm always looking for the best talent to work for our
+                    organization. With Steadfast's crowdsourcing capabilities, I
+                    am able to find the right people before they're even
+                    looking."
+                  </p>
+                  <h6>
+                    <strong>Keith E. Stecher</strong> Director of Human
+                    Resources, SB International, Inc.
+                  </h6>
+                </div>
+                <div className="col-sm-6 col-md-4">
+                  <img src={review2} alt="" className="px-5 px-sm-0" />
+                </div>
+              </div>
+            </div>
+            <div className="col-12 mt-5 mt-sm-0">
+              <div className="row">
+                <div className="col-sm-6 col-md-4">
+                  <img src={review1} alt="" className="px-5 px-sm-0" />
+                </div>
+                <div className="col-sm-6 col-md-8 py-4 d-flex flex-column justify-content-center shadow-sm rounded">
+                  <p>
+                    "Recruiting a Mumps Developer through Steadfast ltd. was a
+                    breeze and I saved more than $6,000 on recruiting costs!."
+                  </p>
+                  <h6>
+                    <strong>Rochelle Simkins</strong> Sr. Talent Acquisition
+                    Consultant, New Century Health.
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* NEWS SECTION */}
       <section className="news py-5">
         <div className="container">
@@ -242,8 +311,6 @@ const index = () => {
           </div>
         </div>
       </section>
-      {/* VIDEO SECTION */}
-      <Video />
     </>
   );
 };
