@@ -2,6 +2,23 @@ import React from "react";
 import image1 from "../../Assets/Images/hero1.jpg";
 import image2 from "../../Assets/Images/hero2.webp";
 import image3 from "../../Assets/Images/hero3.webp";
+import news1 from "../../Assets/Images/news1.png";
+import news2 from "../../Assets/Images/news2.png";
+import news3 from "../../Assets/Images/news3.jpg";
+import news4 from "../../Assets/Images/news4.png";
+import news5 from "../../Assets/Images/news5.png";
+import news6 from "../../Assets/Images/news6.png";
+import news7 from "../../Assets/Images/news7.jpg";
+import news8 from "../../Assets/Images/news8.png";
+import talent1 from "../../Assets/Images/talent1.png";
+import talent2 from "../../Assets/Images/talent2.jpg";
+import talent3 from "../../Assets/Images/talent3.png";
+import talent4 from "../../Assets/Images/talent4.jpg";
+import talent5 from "../../Assets/Images/talent5.jpg";
+import talent6 from "../../Assets/Images/talent6.png";
+import talent7 from "../../Assets/Images/talent7.png";
+import talent8 from "../../Assets/Images/talent8.jpg";
+import HeadingBottomLine from "../../components/HeadingBottomLine/HeadingBottomLine";
 import Meta from "../../components/Meta/Meta";
 import "./Style.scss";
 
@@ -104,6 +121,80 @@ const index = () => {
         </button>
       </section>
       {/* TRUSTED SECTION */}
+      <section className="trusted py-5">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 d-flex flex-column justify-content-center align-items-center">
+              <h1>THE TRUSTED TALENT ACQUISITION SOLUTION</h1>
+              <h5>
+                Hiree.io provides stellar talent to 200+ top companies across
+                the U.S.
+              </h5>
+              <HeadingBottomLine />
+            </div>
+            <div className="col-6 col-md-">
+              <img src={talent1} alt="talent" />
+            </div>
+            <div className="col-6 col-md-">
+              <img src={talent2} alt="talent" />
+            </div>
+            <div className="col-6 col-md-">
+              <img src={talent3} alt="talent" />
+            </div>
+            <div className="col-6 col-md-">
+              <img src={talent4} alt="talent" />
+            </div>
+            <div className="col-6 col-md-">
+              <img src={talent5} alt="talent" />
+            </div>
+            <div className="col-6 col-md-">
+              <img src={talent6} alt="talent" />
+            </div>
+            <div className="col-6 col-md-">
+              <img src={talent7} alt="talent" />
+            </div>
+            <div className="col-6 col-md-">
+              <img src={talent8} alt="talent" />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* NEWS SECTION */}
+      <section className="news py-5">
+        <div className="container">
+          <div className="row">
+            <div className="col-12 d-flex flex-column justify-content-center align-items-center">
+              <h1>hiree.io IN THE NEWS</h1>
+              <h5>See where Hiree.io been featured</h5>
+              <HeadingBottomLine />
+            </div>
+            <div className="col-6 col-md-">
+              <img src={news1} alt="news" />
+            </div>
+            <div className="col-6 col-md-">
+              <img src={news2} alt="news" />
+            </div>
+            <div className="col-6 col-md-">
+              <img src={news3} alt="news" />
+            </div>
+            <div className="col-6 col-md-">
+              <img src={news4} alt="news" />
+            </div>
+            <div className="col-6 col-md-">
+              <img src={news5} alt="news" />
+            </div>
+            <div className="col-6 col-md-">
+              <img src={news6} alt="news" />
+            </div>
+            <div className="col-6 col-md-">
+              <img src={news7} alt="news" />
+            </div>
+            <div className="col-6 col-md-">
+              <img src={news8} alt="news" />
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
