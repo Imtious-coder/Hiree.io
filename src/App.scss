@@ -37,7 +37,23 @@ body {
       color: #ff6600;
     }
   }
-
+  .button {
+    padding: 8px 30px;
+    border: none;
+    background-color: #ff6600;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    border-radius: 25px;
+    border: 2px solid #ff6600;
+    transition: 0.3s all;
+    &:hover {
+      background-color: transparent;
+      color: #ff6600;
+    }
+  }
   .button1 {
     padding: 15px 40px;
     border: none;

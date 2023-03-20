@@ -33,13 +33,12 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/" className="nav-link">
+                <Link to="/recruiters" className="nav-link">
                   Recruiters
                 </Link>
               </li>
               <li className="nav-item dropdown">
-                <Link
-                  to="/"
+                <a
                   className="nav-link dropdown-toggle"
                   href="#cs"
                   role="button"
@@ -47,10 +46,10 @@ const Header = () => {
                   aria-expanded="false"
                 >
                   Success Stories
-                </Link>
+                </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <Link to="/" className="dropdown-item">
+                    <Link to="/top-hire" className="dropdown-item">
                       Employers who hired top talents
                     </Link>
                   </li>
@@ -62,12 +61,12 @@ const Header = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <Link to="/" className="nav-link">
+                <Link to="/career" className="nav-link">
                   Career
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/" className="nav-link">
+                <Link to="/contact" className="nav-link">
                   Contact us
                 </Link>
               </li>
