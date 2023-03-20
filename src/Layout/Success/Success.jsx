@@ -1,5 +1,7 @@
 import React from "react";
 import { FaArrowAltCircleRight } from "react-icons/fa";
+import ImageF from "../../Assets/Images/ProfileF.jfif";
+import ImageM from "../../Assets/Images/ProfileM.jfif";
 import Meta from "../../components/Meta/Meta";
 
 const Success = () => {
@@ -55,6 +57,51 @@ const Success = () => {
                 </li>
               </ul>
               <button>Grab your copy right now!</button>
+            </div>
+            <div className="col-12 bg-secondary py-5 my-5">
+              <h1 className="text-center text-white fw-bold">
+                Glimpse into the stories...
+              </h1>
+            </div>
+            <div className="col-12">
+              <div className="row">
+                <div className="col-12 col-md-6 d-flex gap-4 align-items-center">
+                  <div>
+                    <img
+                      className="img-fluid rounded-circle"
+                      src={ImageM}
+                      alt="profile_picture"
+                    />
+                  </div>
+                  <div>
+                    <p>
+                      "What made me go with Hiree.io was their...centralized
+                      platform."
+                    </p>
+                    <p className="fw-bold">
+                      Evan Lerman, Director of Recruiting Interactive Brokers
+                    </p>
+                  </div>
+                </div>
+                <div className="col-12 col-md-6 d-flex gap-4 align-items-center mt-5 mt-md-0">
+                  <div>
+                    <img
+                      className="img-fluid rounded-circle"
+                      src={ImageF}
+                      alt="profile_picture"
+                    />
+                  </div>
+                  <div>
+                    <p>
+                      “With Hiree.io, we have access to many recruiters without
+                      having to manage any of them.”
+                    </p>
+                    <p className="fw-bold">
+                      Melanie Shellhorn, HR Director Comodo
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
