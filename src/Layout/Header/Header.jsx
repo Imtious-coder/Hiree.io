@@ -37,28 +37,10 @@ const Header = () => {
                   Recruiters
                 </Link>
               </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#cs"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
+              <li className="nav-item">
+                <Link to="/success" className="nav-link">
                   Success Stories
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <Link to="/top-hire" className="dropdown-item">
-                      Employers who hired top talents
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/" className="dropdown-item">
-                      recruiters who earned thousands
-                    </Link>
-                  </li>
-                </ul>
+                </Link>
               </li>
               <li className="nav-item">
                 <Link to="/career" className="nav-link">
