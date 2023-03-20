@@ -5,12 +5,14 @@ import succeed2 from "../../Assets/Images/R2.png";
 import succeed3 from "../../Assets/Images/R3.png";
 import succeed4 from "../../Assets/Images/R4.png";
 import HeadingBottomLine from "../../components/HeadingBottomLine/HeadingBottomLine";
+import Meta from "../../components/Meta/Meta";
 import Video from "../../components/VIDEO/Video";
 import "./Recruiters.scss";
 
 const Recruiters = () => {
   return (
     <>
+      <Meta title={"Recruiters"} />
       {/* RECRUITERS SECTION */}
       <section
         id="carouselExampleDark"
