@@ -2,10 +2,10 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.scss';
 import Layout from './Layout/Layout/Layout.jsx';
-import Success from './Pages/Success/Success';
 import Career from './Pages/Career/Career';
 import Home from './Pages/Home/index.jsx';
 import Recruiters from './Pages/Recruiters/Recruiters';
+import Success from './Pages/Success/Success';
 
 function App() {
   return (

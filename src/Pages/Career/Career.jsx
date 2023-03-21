@@ -1,10 +1,12 @@
 import React from "react";
 import JobsCard from "../../components/JobsCard/JobsCard";
+import Meta from "../../components/Meta/Meta";
 import "./Career.scss";
 
 const Career = () => {
   return (
     <>
+      <Meta title={"Career"} />
       <section className="job-search pb-5 pt-3">
         <div className="container-lg">
           <div className="row">
