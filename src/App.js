@@ -4,7 +4,7 @@ import './App.scss';
 import Layout from './Layout/Layout/Layout.jsx';
 import Career from './Pages/Career/Career';
 import CreateAccount from "./Pages/CreateAccount/CreateAccount";
-import Home from './Pages/Home/Index.jsx';
+import Home from './Pages/Home/index.jsx';
 import Login from "./Pages/Login/Login";
 import Recruiters from './Pages/Recruiters/Recruiters';
 import SignUp from "./Pages/SignUp/SignUp";

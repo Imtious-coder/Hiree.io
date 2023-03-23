@@ -21,7 +21,7 @@ const CreateAccount = () => {
                     type="text"
                     name="Name"
                     id="Name"
-                    className="form-control"
+                    className=""
                     placeholder="Full Name ✍🏻"
                   />
                   <input
@@ -44,21 +44,21 @@ const CreateAccount = () => {
                     type="email"
                     name="Email"
                     id="Email"
-                    className="form-control my-3"
+                    className=" my-3"
                     placeholder="Email 📩"
                   />
                   <input
                     type="number"
                     name="Number"
                     id="Number"
-                    className="form-control"
+                    className=""
                     placeholder="Phone Number 📱"
                   />
                   <input
                     type="password"
                     name="pass"
                     id="pass"
-                    className="form-control my-3"
+                    className=" my-3"
                     placeholder="Password 🔑"
                   />
                   <Link

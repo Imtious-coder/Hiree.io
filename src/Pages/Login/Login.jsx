@@ -22,14 +22,14 @@ const Login = () => {
                     type="email"
                     name="email"
                     id="email"
-                    className="form-control my-3"
+                    className="mt-3"
                     placeholder="Email 📩"
                   />
                   <input
                     type="password"
                     name="pass"
                     id="pass"
-                    className="form-control my-3"
+                    className="my-3"
                     placeholder="Password 🔑"
                   />
                   <Link
