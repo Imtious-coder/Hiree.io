@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.scss';
 import Layout from './Layout/Layout/Layout.jsx';
 import Career from './Pages/Career/Career';
+import Contact from './Pages/Contact/Contact';
 import CreateAccount from "./Pages/CreateAccount/CreateAccount";
 import Home from './Pages/Home/index.jsx';
 import Login from "./Pages/Login/Login";
@@ -20,6 +21,7 @@ function App() {
             <Route path="/recruiters" element={<Recruiters />} />
             <Route path="/success" element={<Success />} />
             <Route path="/career" element={<Career />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path='/login' element={<Login />} />
             <Route path='/signup' element={<SignUp />} />
             <Route path='/create-account' element={<CreateAccount />} />

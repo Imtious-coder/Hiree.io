@@ -88,6 +88,23 @@ body {
       color: white;
     }
   }
+  .button4 {
+    padding: 10px 35px;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    transition: 0.3s all;
+    &:hover {
+      background-color: #ff6600;
+      color: white;
+    }
+  }
   .button3 {
     padding: 10px 30px;
     border: none;
@@ -107,7 +124,7 @@ body {
   }
 
   .color1 {
-    color: #ff6600!important;
+    color: #ff6600 !important;
   }
 
   @media only screen and (max-width: 680px) {

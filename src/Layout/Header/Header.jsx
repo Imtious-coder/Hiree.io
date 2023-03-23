@@ -47,11 +47,11 @@ const Header = () => {
                   Career
                 </Link>
               </li>
-              {/* <li className="nav-item">
+              <li className="nav-item">
                 <Link to="/contact" className="nav-link">
                   Contact us
                 </Link>
-              </li> */}
+              </li>
               <li className="nav-item mx-lg-4 mt-3 mt-lg-0">
                 <div className="d-flex gap-4 justify-content-center align-items-center">
                   <Link to="/login" className="button">
