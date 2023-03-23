@@ -8,11 +8,13 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import Meta from "../../components/Meta/Meta";
 import "./SignUp.scss";
 
 const SignUp = () => {
   return (
     <>
+      <Meta title={"Sign Up"} />
       <section className="sign-up p-2 p-sm-2 p-md-5">
         <div className="container-lg">
           <div className="row justify-content-center">

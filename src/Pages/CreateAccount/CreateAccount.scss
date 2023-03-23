@@ -1,0 +1,31 @@
+.create-account {
+  h1 {
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 500;
+    color: #2c2c2c;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  h5 {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #6c6c6c;
+    text-align: center;
+  }
+  .cards {
+    border: 10px solid #dddddd;
+
+    input,
+    select {
+      width: 100%;
+      font-size: 14px;
+      color: grey;
+      padding: 8px 10px;
+      outline: none;
+      border-radius: 5px;
+      border: 1px solid rgb(217, 217, 217);
+    }
+  }
+}
