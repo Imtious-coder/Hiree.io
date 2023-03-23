@@ -1,6 +1,6 @@
 import { useForm, ValidationError } from "@formspree/react";
 import React from "react";
-import Banner from "../../Assets/Images/contact-banner.jpeg";
+import Banner from "../../Assets/Images/contact-banner.jpg";
 import Meta from "../../components/Meta/Meta";
 import "./Contact.scss";
 
@@ -11,8 +11,13 @@ const Contact = () => {
       <Meta title={"Contact Us"} />
       <section className="contact">
         <div className="row m-0">
-          <div className="col-12 p-0 h-75">
-            <img src={Banner} className="w-100 h-50" alt="" />
+          <div className="col-12 p-0">
+            <div className="position-relative">
+              <img src={Banner} className="w-100 image" alt="" />
+              <h1 className="border-0 position-absolute top-0 fw-bold text-white w-100 h-100 d-flex justify-content-center justify-content-sm-start align-items-center align-items-sm-start pt-sm-4 ps-sm-4">
+                CONTACT US
+              </h1>
+            </div>
           </div>
           <div className="col-12 col-md-6 p-0 m-0">
             <iframe
