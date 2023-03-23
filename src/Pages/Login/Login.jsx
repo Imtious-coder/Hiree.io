@@ -20,15 +20,15 @@ const Login = () => {
                 <form action="/">
                   <input
                     type="email"
-                    name=""
-                    id=""
+                    name="email"
+                    id="email"
                     className="form-control my-3"
                     placeholder="Email 📩"
                   />
                   <input
                     type="password"
-                    name=""
-                    id=""
+                    name="pass"
+                    id="pass"
                     className="form-control my-3"
                     placeholder="Password 🔑"
                   />

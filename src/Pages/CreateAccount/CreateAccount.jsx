@@ -19,15 +19,15 @@ const CreateAccount = () => {
                 <form action="/">
                   <input
                     type="text"
-                    name=""
-                    id=""
+                    name="Name"
+                    id="Name"
                     className="form-control"
                     placeholder="Full Name ✍🏻"
                   />
                   <input
                     type="text"
-                    name=""
-                    id=""
+                    name="COmpany_Name"
+                    id="COmpany_Name"
                     className="my-3"
                     placeholder="Company Name 🏢"
                   />
@@ -42,22 +42,22 @@ const CreateAccount = () => {
                   </select>
                   <input
                     type="email"
-                    name=""
-                    id=""
+                    name="Email"
+                    id="Email"
                     className="form-control my-3"
                     placeholder="Email 📩"
                   />
                   <input
                     type="number"
-                    name=""
-                    id=""
+                    name="Number"
+                    id="Number"
                     className="form-control"
                     placeholder="Phone Number 📱"
                   />
                   <input
                     type="password"
-                    name=""
-                    id=""
+                    name="pass"
+                    id="pass"
                     className="form-control my-3"
                     placeholder="Password 🔑"
                   />
