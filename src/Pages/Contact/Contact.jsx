@@ -12,7 +12,7 @@ const Contact = () => {
       <section className="contact">
         <div className="row m-0">
           <div className="col-12 p-0 h-75">
-            <img src={Banner} className="w-100 h-75" alt="" />
+            <img src={Banner} className="w-100 h-50" alt="" />
           </div>
           <div className="col-12 col-md-6 p-0 m-0">
             <iframe
