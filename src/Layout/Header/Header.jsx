@@ -54,8 +54,12 @@ const Header = () => {
               </li>
               <li className="nav-item mx-lg-4 mt-3 mt-lg-0">
                 <div className="d-flex gap-4 justify-content-center align-items-center">
-                  <button>Login</button>
-                  <button>Sign up</button>
+                  <Link to="/login" className="button">
+                    Login
+                  </Link>
+                  <Link to="/signUp" className="button">
+                    Sign up
+                  </Link>
                 </div>
               </li>
             </ul>

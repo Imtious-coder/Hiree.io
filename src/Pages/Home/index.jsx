@@ -27,7 +27,7 @@ import Meta from "../../components/Meta/Meta";
 import Video from "../../components/VIDEO/Video";
 import "./Style.scss";
 
-const index = () => {
+const Index = () => {
   return (
     <>
       <Meta title={"Hiree.io"} />
@@ -311,4 +311,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

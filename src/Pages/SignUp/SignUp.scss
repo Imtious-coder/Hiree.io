@@ -1,0 +1,62 @@
+.sign-up {
+  h1 {
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #2c2c2c;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  h2 {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #212529;
+    text-align: center;
+  }
+  h4 {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #6c6c6c;
+    text-align: center;
+  }
+  h6 {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #6c6c6c;
+    text-align: center;
+  }
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+  }
+  .cards {
+    border: 10px solid #999999;
+    .icon1 {
+      font-size: 22px !important;
+      line-height: 32px;
+      font-weight: 700;
+      color: #dc3545;
+    }
+    .icon2 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #3b5998;
+    }
+    .icon3 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #1da1f2;
+    }
+    .icon4 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #0077b5;
+    }
+  }
+}
