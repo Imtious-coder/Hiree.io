@@ -68,6 +68,14 @@ const CreateAccount = () => {
                     Sign UP
                   </Link>
                 </form>
+                <div className="mt-4 mb-1 d-flex justify-content-center">
+                  <Link to="/login">
+                    <p className="text-center text-dark mb-0">
+                      Already have an account?
+                      <u className="text-primary ms-1">Click here</u>😊
+                    </p>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

@@ -1,0 +1,71 @@
+.login {
+  h1 {
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #2c2c2c;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+  }
+  .cards {
+    border: 10px solid #999999;
+    input,
+    select {
+      width: 100%;
+      font-size: 14px;
+      color: grey;
+      padding: 8px 10px;
+      outline: none;
+      border-radius: 5px;
+      border: 1px solid rgb(217, 217, 217);
+    }
+    .icon1 {
+      font-size: 22px !important;
+      line-height: 32px;
+      font-weight: 700;
+      color: #dc3545;
+      cursor: pointer;
+      transition: 0.4s all;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+    .icon2 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #3b5998;
+      cursor: pointer;
+      transition: 0.4s all;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+    .icon3 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #1da1f2;
+      cursor: pointer;
+      transition: 0.4s all;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+    .icon4 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #0077b5;
+      cursor: pointer;
+      transition: 0.4s all;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
