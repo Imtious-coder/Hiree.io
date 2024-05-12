@@ -1,8 +1,8 @@
 # Hiree.io
 
-#### Preview: hiree-io.netlify.app/
+#### Preview: https://hiree-io.netlify.app/
 
-<a  href="hiree-io.netlify.app/"><img  width="100%"  height="100%"  src="./public/websiteImage.png"></a>
+<a  href="https://hiree-io.netlify.app/"><img  width="100%"  height="100%"  src="./public/websiteImage.png"></a>
 
 # Packages Installed
 
