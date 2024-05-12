@@ -1,3 +1,9 @@
+# Hiree.io
+
+#### Preview: hiree-io.netlify.app/
+
+<a  href="hiree-io.netlify.app/"><img  width="100%"  height="100%"  src="./public/websiteImage.png"></a>
+
 # Packages Installed
 
 ###### Created react app with redux
@@ -14,7 +20,10 @@
 
 ###### Installed React Fast Marquee (npm i react-fast-marquee --save)
 
-# Work
+# Initial Work
 
 ###### Deleted unnecessary files & Comments. CSS file renamed as SCSS. React Router added to App.js. Components folder created. Pages folder created. Utils folder created. Layout folder created. Assets folder created. Images & Styles folder created inside Assets. Layout folder created & route added to app.js. Header & Footer folder-file created and added to layout file. Home folder-file created and route added to app.js. Meta folder-file created and used in Home file.
-# Hiree.io
+
+##### Tech & Tools: React.js, Boostrap5, SASS, React Router Dom V6, React Icons, Git, Github, Netlify, Data AOS, & Hover.css.
+
+###### Imtious Islam
